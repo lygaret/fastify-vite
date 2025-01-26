@@ -66,7 +66,6 @@ export async function createHtmlFunction (source, _, config) {
       )
     }
 
-    console.dir(context.toJSON(), { depth: null })
     // Embed full hydration script
     context.hydration = (
       `<script>\nwindow.route = ${

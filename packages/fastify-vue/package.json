@@ -36,7 +36,7 @@
     "./server": "./server.js"
   },
   "dependencies": {
-    "@fastify/vite": "workspace:^",
+    "@fastify/vite": "*",
     "acorn": "^8.12.1",
     "acorn-walk": "^8.3.4",
     "devalue": "latest",
